@@ -1,0 +1,123 @@
+{
+  "Customers": [
+    {
+      "userId": 100,
+      "firstName": "Manish",
+      "lastName": "Avasarala",
+      "region": "New Jersey",
+      "phoneNumber": "551-328-4924",
+      "shippingAddress": "127 Congress Street,Jsersey City, New Jersey 07307",
+      "Orders": [
+        {
+          "orderId": "001",
+          "currency": "USD($)",
+          "subtotal": 20,
+          "grandTotal": 20,
+          "lineItems": [
+            {
+              
+              "name": "Greek Yogurt",
+              
+              "category": "Dairy > Yogurt > Greek Yogurt",
+              "unitPrice": 8,
+              "salePrice": 8,
+              "quantity": 3,
+              "totalPrice": 24.00
+            },
+            {
+              
+              "name": "Chicken Thigh",
+              
+              "category": "Frozen> Meat> Chicken",
+              
+              "unitPrice": 15,
+              "salePrice": 10,
+              "quantity": 1,
+              "totalPrice": 10.00
+            }
+          ]
+        },
+        {
+          "orderId": "002",
+          "currency": "USD($)",
+          "subtotal": 11.99,
+          "discountAmount": 0.99,
+          "taxAmount": 0,
+          "grandTotal": 11.00,
+          "lineItems": [
+            {
+              
+              "name": "Vegetables",
+              "description": "A mixture of all vegetables",
+              "category": "Frozen > Vegetables",
+              "unitPrice": 11.99,
+              "salePrice": 11.99,
+              "quantity": 1,
+              "totalPrice": 11.99
+            }
+          ]
+        },
+        {
+          "orderId": "003",
+          "currency": "USD($)",
+          "subtotal": 10,
+          "discountAmount": 0,
+          "taxAmount": 0,
+          "grandTotal": 10,
+          "lineItems": [
+            {
+              
+              "name": "Noodles",
+              "description": "Chinese Hakka Noodles- Veg",
+              "category": "Breakfast > Veg> Noodles",
+              "unitPrice": 7.99,
+              "salePrice": 7.99,
+              "quantity": 1,
+              "totalPrice": 7.99
+            },
+            {
+              
+              "name": "Butter",
+              "description": "Low Fat Butter",
+              "category": "Dairy > Lowfat > Butter",
+              
+              "unitPrice": 5.99,
+              "salePrice": 5,
+              "quantity": 1,
+              "totalPrice": 5.00
+            },
+            {
+              
+              "name": "Milk",
+              "description": "Fresh Farm Buffalo Milk",
+              "category": "Dairy> Milk > Buffalo Milk",
+              
+              "unitPrice": 5.95,
+              "salePrice": 0,
+              "quantity": 1,
+              "totalPrice": 5.95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "userId": 200,
+      "firstName": "Yash",
+      "lastName": "Jani",
+      "region": "New York",
+      "phoneNumber": "702-181-0855",
+      
+      "shippingAddress": "142 St Pauls Ave, 1F, NYC, NY, 07306"
+    },
+    {
+      "userId": 300,
+      "firstName": "Manu",
+      "lastName": "Sharanya",
+      "region": "New York",
+      "phoneNumber": "702-181-0777",
+      "emailAddress": "manusharanya@gmail.com",
+      "shippingAddress": "1 Pace Plaza, NY, NY 10032"
+    }
+  ]
+}
